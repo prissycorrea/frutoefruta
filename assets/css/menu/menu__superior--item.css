@@ -1,0 +1,8 @@
+.menu__superior--item {
+    list-style: none;
+}
+
+.menu__superior--item:last-child .menu__superior--link {
+    margin-right: 0;
+}
+
