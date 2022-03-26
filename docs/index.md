@@ -1,37 +1,135 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/prissycorrea/frutoefruta/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/prissycorrea/frutoefruta/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Fruta & Fruto</title>
+        <link href="./assets/css/normalize.css" rel="stylesheet">
+        <link href="./assets/css/reset.css" rel="stylesheet">
+        <link href="./assets/css/menu/cabecalho.css" rel="stylesheet">
+        <link href="./assets/css/menu/menu__superior--lista.css" rel="stylesheet">
+        <link href="./assets/css/menu/menu__superior--item.css" rel="stylesheet">
+        <link href="./assets/css/menu/menu__superior--link.css" rel="stylesheet">
+        <link href="./assets/css/menu/menu__superior--ativo.css" rel="stylesheet">
+        <link href="./assets/css/banner/banner.css" rel="stylesheet">
+        <link href="./assets/css/banner/banner__imagem.css" rel="stylesheet">
+        <link href="./assets/css/banner/banner__titulo.css" rel="stylesheet">
+        <link href="./assets/css/sobre/sobre.css" rel="stylesheet">
+        <link href="./assets/css/sobre/sobre__titulo.css" rel="stylesheet">
+        <link href="./assets/css/sobre/sobre__descricao.css" rel="stylesheet">
+        <link href="./assets/css/receita/receita.css" rel="stylesheet">
+        <link href="./assets/css/receita/receitas.css" rel="stylesheet">
+        <link href="./assets/css/receita/receita__imagem.css" rel="stylesheet">
+        <link href="./assets/css/receita/receita__titulo.css" rel="stylesheet">
+        <link href="./assets/css/receita/receita__conteudo.css" rel="stylesheet">
+        <link href="./assets/css/receita/receita__descricao.css" rel="stylesheet">
+        <link href="./assets/css/receita/receita__botao.css" rel="stylesheet">
+        <link href="./assets/css/quem-somos/quem-somos.css" rel="stylesheet">
+        <link href="./assets/css/quem-somos/quem-somos__titulo.css" rel="stylesheet">
+        <link href="./assets/css/quem-somos/quem-somos__descricao.css" rel="stylesheet">
+        <link href="./assets/css/pessoas/pessoas.css" rel="stylesheet">
+        <link href="./assets/css/pessoas/pessoa.css" rel="stylesheet">
+        <link href="./assets/css/pessoas/pessoa__imagem.css" rel="stylesheet">
+        <link href="./assets/css/pessoas/pessoa__nome.css" rel="stylesheet">
+        <link href="./assets/css/pessoas/pessoa__funcao.css" rel="stylesheet">
+        <link href="./assets/css/rodape.css" rel="stylesheet">
+        <link href="./assets/css/logo.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img class="cabecalho__logotipo" src="assets/img/logo.jpg" alt="Logotipo Fruta e Fruto">
+            <nav class="menu__superior">
+                <ul class="menu__superior--lista">
+                    <li class="menu__superior--item"><a class="menu__superior--link menu__superior--ativo" href="#">Início</a></li>
+                    <li class="menu__superior--item"><a class="menu__superior--link" href="#">Receitas</a></li>
+                    <li class="menu__superior--item"><a class="menu__superior--link" href="#">Quem somos</a></li>
+                    <li class="menu__superior--item"><a class="menu__superior--link" href="#">Comunidade</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="banner">
+            <div class="banner__imagem" src="./assets/img/banner.jpg" alt="caixas de madeira contendo frutas e frutos"></div>
+            <h2 class="banner__titulo">Reaproveite melhor os alimentos!</h2>
+        </section>
+        <section class="sobre">
+            <h2 class="sobre__titulo">Receitas para economizar e ganhar saúde</h2>
+            <p class="sobre__descricao">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade.</p>
+        </section>
+        <section class="receitas">
+            <div class="receita">
+                <img alt="Tigela de abacate" class="receita__imagem" src="./assets/img/receitas/tigela-de-abacate.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Tigela de abacate</h4>
+                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button class="receita__botao">Ver receita</button>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Salada de kiwi" class="receita__imagem" src="./assets/img/receitas/salada-de-kiwi.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Salada de kiwi</h4>
+                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button class="receita__botao">Ver receita</button>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Mix de vegetais" class="receita__imagem" src="./assets/img/receitas/mix-de-vegetais.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Mix de vegetais</h4>
+                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button class="receita__botao">Ver receita</button>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Pimentões à Juliana" class="receita__imagem" src="./assets/img/receitas/pimentoes-a-juliana.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Pimentões à Juliana</h4>
+                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button class="receita__botao">Ver receita</button>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Prato oriental" class="receita__imagem" src="./assets/img/receitas/prato-oriental.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Prato oriental</h4>
+                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button class="receita__botao">Ver receita</button>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Beterrabas assadas" class="receita__imagem" src="./assets/img/receitas/beterrabas-assadas.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Beterrabas assadas</h4>
+                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button class="receita__botao">Ver receita</button>
+                </div>
+            </div>
+        </section>
+        <section class="quem-somos">
+            <h3 class="quem-somos__titulo">Quem somos</h3>
+            <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
+            <div class="pessoas">
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa__imagem--roberta"></div>
+                    <span class="pessoa__nome">Roberta</span>
+                    <span class="pessoa__funcao">Conteúdo</span>
+                </div>
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa__imagem--marcela"></div>
+                    <span class="pessoa__nome">Marcela</span>
+                    <span class="pessoa__funcao">Chef de cozinha</span>
+                </div>
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa__imagem--andreia"></div>
+                    <span class="pessoa__nome">Andréia</span>
+                    <span class="pessoa__funcao">Pequena Produtora</span>
+                </div>
+            </div>
+        </section>
+        <footer class="rodape">
+            Contato: exemplo@email.com
+        </footer>
+    </body>
+</html>
