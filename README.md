@@ -3,7 +3,7 @@
 
 Projeto desenvolvido em aula através da formação front-end da Alura.
 
-Desenvolvimento de uma web page com receitas saudáveis.
+Desenvolvimento de uma landing page com receitas saudáveis.
 
 
 
